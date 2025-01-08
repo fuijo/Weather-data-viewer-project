@@ -1,5 +1,9 @@
 # weather_data_viewer
-#Instructions
+# Project Overview: 
+The Weather Data Project is an interactive web-based application designed to visualize and analyze weather data across global cities. It integrates data-driven features, map-based visualizations, and an intuitive user interface to provide insights into geographic weather patterns.
+![image](https://github.com/user-attachments/assets/694ccd51-810c-443f-a4a4-9e6b00b1050f)
+
+# Instructions
 Data Visualization Track Requirements 
 Data and Delivery 
 The dataset contains at least 100 unique records. 
@@ -78,3 +82,22 @@ All group members speak during the presentation. (5 points)
 The content is relevant to the project. (5 points)
 The presentation maintains audience interest. (5 points)
 Content, transitions, and conclusions flow smoothly within any time restrictions. (10 points)
+
+# **Insights and Findings:**
+
+- **Temperature Trends:** The app allows users to visually identify temperature patterns using color-coded markers (e.g., orange for warmer cities and green for cooler ones).
+
+- **Global Comparisons:** Users can explore weather data from both hemispheres, analyzing variations in temperature and other metrics across different regions.
+
+- **Ease of Navigation:** The app incorporates search and filtering options that facilitate efficient exploration of large datasets.
+
+**Technical Stack:**
+
+- **Frontend:** HTML, CSS (custom styles), and JavaScript.
+
+- **Libraries and Tools:** Leaflet.js, D3.js, MarkerCluster, and Leaflet Geocoder.
+
+- **Data Handling:** CSV files are used to manage weather data.
+
+**Conclusion:** The Weather Data Project showcases a strong integration of data visualization and geographic mapping technologies. It serves as a valuable tool for analyzing global weather patterns, presenting data in a clear and accessible format. The interactive features, combined with detailed weather insights, make it an excellent resource for both educational and analytical purposes.
+
