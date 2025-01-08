@@ -1,4 +1,4 @@
-# weather_data_viewer
+# Weather_data_viewer
 # Project Overview: 
 The Weather Data Project is an interactive web-based application designed to visualize and analyze weather data across global cities. It integrates data-driven features, map-based visualizations, and an intuitive user interface to provide insights into geographic weather patterns.
 ![image](https://github.com/user-attachments/assets/694ccd51-810c-443f-a4a4-9e6b00b1050f)
