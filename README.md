@@ -3,7 +3,7 @@
 The Weather Data Project is an interactive web-based application designed to visualize and analyze weather data across global cities. It integrates data-driven features, map-based visualizations, and an intuitive user interface to provide insights into geographic weather patterns.
 ![image](https://github.com/user-attachments/assets/694ccd51-810c-443f-a4a4-9e6b00b1050f)
 
-** Data Visualization and Data Engineering Track Project** 
+**Data Visualization and Data Engineering Track Project** 
 **Project Overview:** The goal of this group project was to develop an interactive data visualization application, utilizing large datasets and advanced techniques, and to manage and engineer the data for meaningful analysis and presentation. The project included the creation of visualizations and the implementation of an ETL (Extract, Transform, Load) workflow to process and store data in a database. It was designed to be interactive and user-friendly, ensuring that users could explore the data in an engaging manner while focusing on ethical data usage and interaction.
 
 **Key Objectives and Tasks:**
