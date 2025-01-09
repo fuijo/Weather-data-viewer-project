@@ -85,19 +85,19 @@ Content, transitions, and conclusions flow smoothly within any time restrictions
 
 # **Insights and Findings:**
 
-- **Temperature Trends:** The app allows users to visually identify temperature patterns using color-coded markers (e.g., orange for warmer cities and green for cooler ones).
+ **Temperature Trends:** The app allows users to visually identify temperature patterns using color-coded markers (e.g., orange for warmer cities and green for cooler ones).
 
-- **Global Comparisons:** Users can explore weather data from both hemispheres, analyzing variations in temperature and other metrics across different regions.
+ **Global Comparisons:** Users can explore weather data from both hemispheres, analyzing variations in temperature and other metrics across different regions.
 
-- **Ease of Navigation:** The app incorporates search and filtering options that facilitate efficient exploration of large datasets.
+ **Ease of Navigation:** The app incorporates search and filtering options that facilitate efficient exploration of large datasets.
 
 **Technical Stack:**
 
-- **Frontend:** HTML, CSS (custom styles), and JavaScript.
+ **Frontend:** HTML, CSS (custom styles), and JavaScript.
 
-- **Libraries and Tools:** Leaflet.js, D3.js, MarkerCluster, and Leaflet Geocoder.
+ **Libraries and Tools:** Leaflet.js, D3.js, MarkerCluster, and Leaflet Geocoder.
 
-- **Data Handling:** CSV files are used to manage weather data.
+ **Data Handling:** CSV files are used to manage weather data.
 
 **Conclusion:** The Weather Data Project showcases a strong integration of data visualization and geographic mapping technologies. It serves as a valuable tool for analyzing global weather patterns, presenting data in a clear and accessible format. The interactive features, combined with detailed weather insights, make it an excellent resource for both educational and analytical purposes.
 
