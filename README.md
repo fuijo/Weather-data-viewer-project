@@ -3,85 +3,72 @@
 The Weather Data Project is an interactive web-based application designed to visualize and analyze weather data across global cities. It integrates data-driven features, map-based visualizations, and an intuitive user interface to provide insights into geographic weather patterns.
 ![image](https://github.com/user-attachments/assets/694ccd51-810c-443f-a4a4-9e6b00b1050f)
 
-# Instructions
-Data Visualization Track Requirements 
-**Data and Delivery** 
-- The dataset contains at least 100 unique records. 
+** Data Visualization and Data Engineering Track Project** 
+**Project Overview:** The goal of this group project was to develop an interactive data visualization application, utilizing large datasets and advanced techniques, and to manage and engineer the data for meaningful analysis and presentation. The project included the creation of visualizations and the implementation of an ETL (Extract, Transform, Load) workflow to process and store data in a database. It was designed to be interactive and user-friendly, ensuring that users could explore the data in an engaging manner while focusing on ethical data usage and interaction.
 
-- A database is used to house the data (SQL, MongoDB, SQLite, etc.). 
+**Key Objectives and Tasks:**
+**Data Visualization Track:**
 
-- The GitHub repo has a README.md that includes the following: 
+**Visualization Creation:**
 
-- An overview of the project and its purpose
+**Libraries Used:** The project utilized libraries like Python (Matplotlib, Pandas) and JavaScript (Plotly) to create interactive visualizations.
+**Visualizations:** At least three unique views were implemented, presenting the data in a way that was digestible for users of all skill levels. The views allowed users to explore the data through:
 
-- Instructions on how to use and interact with the project
+**Interactive bar charts**
+Line graphs or scatter plots for data trends
+Bubble charts or heatmaps for detailed analysis
+**Interactivity:** The visualizations were powered by HTML dropdowns, menus, and textboxes, providing users with the ability to filter and select data dynamically. The visualizations updated based on user-selected filters.
 
-- At least one paragraph summarizing efforts for ethical considerations made in the project
+**Data Source and Database:**
 
-- References for the data source(s)
+**Dataset:** A dataset containing over 100 records was stored in a database (PostgreSQL, MongoDB, SQLite, etc.).
+The project implemented a Flask backend to serve visualizations, fetch data from the database, and provide an API to handle user-driven requests.
+User-driven Interaction:
 
-- References for any code used that is not your own
+The visualizations allowed users to filter and interact with the data, dynamically adjusting the visuals based on the selection.
+JavaScript and Python libraries not covered in class were incorporated to enhance functionality.
+Project Documentation:
 
-**Visualizations** 
-- A minimum of three unique views present the data. 
-- The visualizations are presented in a clear, digestible manner. 
-- The data story is easy to interpret for users of all levels. 
-**Usability** 
-- The script, notebook, or webpage created to showcase data visualizations runs without error. 
-
-- A Python or JavaScript library not shown in class is used in the project. 
-
-The project includes some level of user-driven interaction, conforming to one of the following designs: 
-
-- HTML menus, dropdowns, and/or textboxes to display JavaScript-powered visualizations
-
-- Flask backend with interactive API routes that serve back Python or JavaScript created plots
-
-- Visualizations created from user-selected filtered data
-
-**Data Engineering Track Requirements** 
-**Database Design** 
-- The project uses ETL workflows to ingest data into the database. 
-- The original dataset(s) are transformed prior to storing it in the database. 
-- A database is used to house the data (SQL, MongoDB, SQLite, etc.). 
-- The database has at least two tables (SQL) or collections (NoSQL). 
-- The project documents the choice of the database used and why. 
-- The project includes documentation of the ETL workflow with diagrams or ERD. 
-
-**Data and Delivery** 
-- The database contains at least 100 unique records.
-- The project uses one additional library not covered in class related to data engineering. 
-The project includes a method for reading data from the database and displaying it for future use, such as: 
-- Pandas DataFrame
-- Flask API with JSON output
-The GitHub repo has a README.md that includes the following: 
+A detailed README.md is provided, including:
 An overview of the project and its purpose
-Instructions on how to use and interact with the project
-At least one paragraph summarizing efforts for ethical considerations made in the project
-References for the data source(s)
-References for any code used that is not your own
-Both Track Requirements
-Group Presentation 
-All group members speak during the presentation. 
-The content is relevant to the project. 
-The presentation maintains audience interest. 
-Content, transitions, and conclusions flow smoothly within any time restrictions. 
+Instructions for using the application and interacting with the visualizations
+Ethical considerations and references to data sources and code used
 
-# **Insights and Findings:**
+**Data Engineering Track:**
+**ETL Workflow:**
 
- **Temperature Trends:** The app allows users to visually identify temperature patterns using color-coded markers (e.g., orange for warmer cities and green for cooler ones).
+Data was processed using an ETL pipeline. The data was extracted from raw sources, transformed (e.g., cleaning, aggregating, or reformatting), and loaded into a structured database for future use.
+Database Structure: The project included at least two tables or collections in the database, making it suitable for relational or NoSQL storage.
+Data Transformation:
 
- **Global Comparisons:** Users can explore weather data from both hemispheres, analyzing variations in temperature and other metrics across different regions.
+The raw dataset underwent transformations before being stored, ensuring it was properly cleaned and optimized for analysis.
+Tools Used: Libraries related to data engineering, such as Pandas for data manipulation and other tools like SQLAlchemy for database interaction, were employed.
+Database and API:
 
- **Ease of Navigation:** The app incorporates search and filtering options that facilitate efficient exploration of large datasets.
+A Flask API was created to fetch and serve transformed data from the database, outputting results as JSON for further analysis or presentation.
+Additional Library: A library not covered in class was incorporated to manage data pipelines, cloud integration, or streaming.
+Project Documentation for Data Engineering:
 
-**Technical Stack:**
+**The README.md included:**
+Details about the database used, and reasons for choosing a specific SQL or NoSQL database.
+Diagrams and explanations of the ETL workflow.
+Ethical considerations regarding data usage and potential biases.
 
- **Frontend:** HTML, CSS (custom styles), and JavaScript.
+**Group Collaboration and Final Presentation:**
+**Collaborative Effort:**
 
- **Libraries and Tools:** Leaflet.js, D3.js, MarkerCluster, and Leaflet Geocoder.
+Group members collaborated effectively by dividing tasks related to data collection, transformation, and visualization. Regular meetings ensured alignment and timely progress.
+Group Presentation:
 
- **Data Handling:** CSV files are used to manage weather data.
+The project culminated in a presentation where each member contributed, explaining the development process, visualizations, and insights gained from the data.
+The presentation was designed to be engaging and informative, ensuring the audience could follow the story told through the data.
+GitHub Repository:
 
-**Conclusion:** The Weather Data Project showcases a strong integration of data visualization and geographic mapping technologies. It serves as a valuable tool for analyzing global weather patterns, presenting data in a clear and accessible format. The interactive features, combined with detailed weather insights, make it an excellent resource for both educational and analytical purposes.
-
+The final version of the project was hosted on GitHub, including all relevant code, visualizations, and the database. It was deployed and accessible for the review and usage of external users.
+**Outcome:**
+The project successfully met both the Data Visualization and Data Engineering track requirements.
+The visualizations presented the data in a clear and insightful manner, with user interaction to explore different views and metrics.
+The ETL process transformed raw data into a structured format, stored in a robust database, and served back through a Flask API.
+Ethical considerations, including data privacy, fairness, and transparency, were taken into account during the development process.
+The final product, including the presentation and deployment, demonstrated a comprehensive understanding of both data analysis and engineering principles.
+The project effectively showcased the ability to manipulate large datasets, create interactive visualizations, and design workflows for efficient data management, making it a complete and polished solution for the chosen domain.
