@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data Viewer with Marker Clusters</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+
+    <!-- Marker cluster CSS -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
+
+    <!-- Leaflet Geocoder CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename = './css/style.css') }}">
+
+
+</head>
+
+<body>
+    <h2>Weather Data Viewer</h2>
+    <p>Select a dataset and city to explore:</p>
+
+    <div id="controls">
+        <select id="datasetDropdown">
+            <option value="" disabled selected>Select a Dataset...</option>
+            <option value="/cities">Cities Dataset</option>
+            <option value="/cities/north">Northern Cities Dataset</option>
+            <option value="/cities/south">Southern Cities Dataset</option>
+        </select>
+
+        <select id="cityDropdown" disabled>
+            <option value="" disabled>Select a city...</option>
+        </select>
+
+        <button id="clearButton">Clear Selections</button>
+        <p id="lastUpdate">Last update: N/A</p>
+    </div>
+
+    <input type="text" id="citySearch" placeholder="Search for a city..." />
+
+    <div id="cityInfo">
+        <p>Select a city to see its details here.</p>
+    </div>
+    <canvas id="cityChart" width="600" height="400" style="margin: 20px auto; display: none;"></canvas>
+
+    <div id="map"></div>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script> <!-- Added D3.js library -->
+
+    <!-- Leaflet JavaScript code -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Marker cluster JavaScript code -->
+    <script type="text/javascript"
+        src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+
+    <!-- Leaflet Geocoder JS -->
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="{{ url_for('static', filename = './js/map.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+:root {
+    --primary-color: #0056b3;
+    --secondary-color: #333;
+    --background-color: #818a8f;
+    --highlight-color: #e9ecef;
+    --font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: var(--primary-color);
+    font-size: 2.2rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+}
+
+input[type="text"] {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+}
+
+#cityInfo {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: var(--highlight-color);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cityInfo h3 {
+    color: var(--primary-color);
+    margin: 0 0 10px;
+}
+
+#cityInfo p {
+    margin: 5px 0;
+}
+
+#map {
+    height: 500px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#clearButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clearButton:hover {
+    background-color: #8b0e8d;
+}
+
+/* Move search box to the right side of the screen */
+#citySearch {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 10;
+    width: 250px;
+}
+
+#lastUpdate {
+    font-size: 1rem;
+    color: #f1bac2; /* Light pink color */
+    text-align: center;
+    margin-top: 10px;
+}
