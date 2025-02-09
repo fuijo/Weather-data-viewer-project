@@ -21,7 +21,7 @@ Bubble charts or heatmaps for detailed analysis
 
 **Data Source and Database:**
 
-**Dataset:** A dataset containing over 100 records was stored in a database (PostgreSQL, MongoDB, SQLite, etc.).
+**Dataset:** A dataset containing over 100 records was stored in a database (PostgreSQL, MongoDB).
 The project implemented a Flask backend to serve visualizations, fetch data from the database, and provide an API to handle user-driven requests.
 User-driven Interaction:
 
